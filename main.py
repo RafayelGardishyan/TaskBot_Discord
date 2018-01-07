@@ -33,4 +33,4 @@ async def on_message(message):
 		db.disconnect()
 		raise SystemExit("Exited with !exit command")
 
-client.run('Mzk5MjI4NjM4NTY3ODU4MTc3.DTKDyA.izl8Bsh2wqjNl6uHyWxluxUXVnI')
+client.run('token')
