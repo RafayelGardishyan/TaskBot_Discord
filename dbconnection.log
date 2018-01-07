@@ -1,0 +1,6 @@
+2018-01-07 12:32:51,897 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:32:51,898 INFO Table tasks already exists
+2018-01-07 12:33:58,240 ERROR Failed to get tasks from database: 'str' object has no attribute 'execute'
+2018-01-07 12:34:17,561 ERROR Failed to add task to database: 'str' object has no attribute 'execute'
+2018-01-07 12:36:42,491 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:36:42,492 INFO Table tasks already exists
