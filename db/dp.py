@@ -57,8 +57,8 @@ class db():
 		try:
 			query = "SELECT * FROM tasks WHERE author=?"
 			self.cursor.execute(query, (str(author),))
-			return self.cursor.fetchall()
 			self.logger.info("Got tasks for author {} from database".format(author))
+			return self.cursor.fetchall()
 		except Exception as e:
 			self.logger.error('Failed to get tasks from database: '+ str(e))
 			print("Error: Can not get tasks for user {}".format(author))

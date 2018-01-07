@@ -61,3 +61,71 @@
 2018-01-07 13:09:00,192 INFO Initialized cursor
 2018-01-07 13:09:00,193 INFO Table tasks already exists
 2018-01-07 13:14:09,761 INFO Disconnected from database
+2018-01-07 13:14:27,856 INFO Connected to database Taskbot.sqlite3
+2018-01-07 13:14:27,856 INFO Initialized cursor
+2018-01-07 13:14:27,862 INFO Table tasks already exists
+2018-01-07 18:37:03,223 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:37:03,224 INFO Initialized cursor
+2018-01-07 18:37:03,225 INFO Table tasks already exists
+2018-01-07 18:38:05,252 INFO Disconnected from database
+2018-01-07 18:38:08,244 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:38:08,244 INFO Initialized cursor
+2018-01-07 18:38:08,245 INFO Table tasks already exists
+2018-01-07 18:39:01,969 INFO Disconnected from database
+2018-01-07 18:39:04,739 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:39:04,739 INFO Initialized cursor
+2018-01-07 18:39:04,740 INFO Table tasks already exists
+2018-01-07 18:39:27,755 INFO Disconnected from database
+2018-01-07 18:39:30,991 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:39:30,991 INFO Initialized cursor
+2018-01-07 18:39:30,992 INFO Table tasks already exists
+2018-01-07 18:40:14,952 INFO Disconnected from database
+2018-01-07 18:40:18,258 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:40:18,258 INFO Initialized cursor
+2018-01-07 18:40:18,260 INFO Table tasks already exists
+2018-01-07 18:40:44,003 INFO Disconnected from database
+2018-01-07 18:41:11,773 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:41:11,774 INFO Initialized cursor
+2018-01-07 18:41:11,775 INFO Table tasks already exists
+2018-01-07 18:42:30,255 INFO Disconnected from database
+2018-01-07 18:42:32,913 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:42:32,914 INFO Initialized cursor
+2018-01-07 18:42:32,915 INFO Table tasks already exists
+2018-01-07 18:45:12,354 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:45:12,354 INFO Initialized cursor
+2018-01-07 18:45:12,355 INFO Table tasks already exists
+2018-01-07 18:45:21,696 INFO Got tasks for author Rafayel#0501 from database
+2018-01-07 18:45:53,850 INFO Got tasks for author Rafayel#0501 from database
+2018-01-07 18:47:19,080 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:47:19,080 INFO Initialized cursor
+2018-01-07 18:47:19,081 INFO Table tasks already exists
+2018-01-07 18:47:29,971 INFO Added task Test3 for author Rafayel#0501 to database
+2018-01-07 18:47:35,695 INFO Added task test4 for author Rafayel#0501 to database
+2018-01-07 18:47:40,220 INFO Got tasks for author Rafayel#0501 from database
+2018-01-07 18:48:37,396 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:48:37,396 INFO Initialized cursor
+2018-01-07 18:48:37,397 INFO Table tasks already exists
+2018-01-07 18:48:44,245 INFO Got tasks for author Rafayel#0501 from database
+2018-01-07 18:50:16,278 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:50:16,278 INFO Initialized cursor
+2018-01-07 18:50:16,279 INFO Table tasks already exists
+2018-01-07 18:50:22,492 INFO Got tasks for author Rafayel#0501 from database
+2018-01-07 18:50:42,550 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:50:42,551 INFO Initialized cursor
+2018-01-07 18:50:42,551 INFO Table tasks already exists
+2018-01-07 18:50:44,994 INFO Disconnected from database
+2018-01-07 18:50:49,178 INFO Connected to database Taskbot.sqlite3
+2018-01-07 18:50:49,179 INFO Initialized cursor
+2018-01-07 18:50:49,179 INFO Table tasks already exists
+2018-01-07 18:51:02,895 INFO Got tasks for author Rafayel#0501 from database
+2018-01-07 19:01:25,069 INFO Disconnected from database
+2018-01-07 19:01:27,313 INFO Connected to database Taskbot.sqlite3
+2018-01-07 19:01:27,314 INFO Initialized cursor
+2018-01-07 19:01:27,314 INFO Table tasks already exists
+2018-01-07 19:01:42,440 INFO Deleted task Test for author Rafayel#0501 from database
+2018-01-07 19:01:48,981 INFO Got tasks for author Rafayel#0501 from database
+2018-01-07 19:02:03,520 INFO Deleted task Test2 for author Rafayel#0501 from database
+2018-01-07 19:02:09,966 INFO Deleted task Test3 for author Rafayel#0501 from database
+2018-01-07 19:02:15,347 INFO Deleted task test4 for author Rafayel#0501 from database
+2018-01-07 19:02:24,295 INFO Got tasks for author Rafayel#0501 from database
+2018-01-07 19:06:16,511 INFO Got tasks for author Rafayel#0501 from database

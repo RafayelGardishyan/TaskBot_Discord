@@ -22,25 +22,34 @@ async def on_ready():
 @client.event
 async def on_message(message):
 	if message.content.startswith('#:task'):
-		task = message.content[7:]
 		tmp = await client.send_message(message.channel, 'Adding Task ...')
+		task = message.content[7:]
+		db.addtask(task, message.author)
 		await client.edit_message(tmp, 'Added task {} for user {}.'.format(task, message.author))
 
 	elif message.content.startswith('#:mytasks'):
 		tmp = await client.send_message(message.channel, 'Getting Tasks ...')
 		tasksraw = db.gettasks(message.author)
 		tcount = 0
-		tasks = []
+		tasks = ""
 		for task in tasksraw:
 			count = tcount + 1
 			tcount += 1
-			name = task[1]
-			tasks += "{} : {}".format(count, name)
+			tasks += "{}: {}\n".format(count, task[1])
 			
+		if len(tasks) != 0:
+			await client.edit_message(tmp, 'Tasks for {}\n{} '.format(message.author,tasks))
+		else:
+			await client.edit_message(tmp, 'You have no tasks')
 			
-		await client.edit_message(tmp, 'Your tasks\n {} '.format(tasks))
+	elif message.content.startswith('#:deltask'):
+		tmp = await client.send_message(message.channel, 'Deleting Task ...')
+		task = message.content[10:]
+		author = message.author
+		db.deletetask(task, author)
+		await client.edit_message(tmp, 'Deleted task {} from {}\'s tasks '.format(task, author))	
 		
-	elif message.content.startswith('!exit'):
+	elif message.content.startswith('!'):
 		db.disconnect()
 		raise SystemExit("Exited with !exit command")
 
