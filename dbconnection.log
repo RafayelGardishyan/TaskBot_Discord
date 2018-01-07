@@ -135,3 +135,6 @@
 2018-01-07 19:20:03,135 INFO Connected to database Taskbot.sqlite3
 2018-01-07 19:20:03,135 INFO Initialized cursor
 2018-01-07 19:20:03,136 INFO Table tasks already exists
+2018-01-07 19:39:26,925 INFO Connected to database Taskbot.sqlite3
+2018-01-07 19:39:26,925 INFO Initialized cursor
+2018-01-07 19:39:26,927 INFO Table tasks already exists
