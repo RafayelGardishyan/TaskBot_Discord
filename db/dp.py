@@ -27,6 +27,7 @@ class db():
 			self.cursor.execute(query)
 			self.db.commit()
 			self.logger.info("Created table tasks")
+			return True
 		except:
 			print("Table already exists")
 			self.logger.info("Table tasks already exists")
@@ -37,6 +38,7 @@ class db():
 			self.cursor.execute(query, (str(task), str(author)))
 			self.db.commit()
 			self.logger.info("Added task {} for author {} to database".format(task, author))
+			return True
 		except Exception as e:
 			self.logger.error('Failed to add task to database: '+ str(e))
 			print("Error: Can not add task to database")
@@ -48,6 +50,7 @@ class db():
 			self.cursor.execute(query, (str(task), str(author)))
 			self.db.commit()
 			self.logger.info("Deleted task {} for author {} from database".format(task, author))
+			return True
 		except Exception as e:
 			self.logger.error('Failed to delte task from database: '+ str(e))
 			print("Error: Can not delete task {}".format(task))

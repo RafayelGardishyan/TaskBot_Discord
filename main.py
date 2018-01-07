@@ -11,6 +11,17 @@ db.connect('Taskbot.sqlite3')
 db.cursor()
 db.createtasktable()
 
+help_message = '''Taskbot Help Message\n
+Description:
+This is a bot that helps you with task management. You can add Tasks, view them and later delete.\n
+Commands:
+#:task <taskname> = Add a task to your account
+#:mytasks = Get all your tasks
+#:deltask <taskname> = Delete the task with this name
+#:? of #:help = Help command
+'''
+
+
 @client.event
 async def on_ready():
 	print('Logged in as')
@@ -46,9 +57,15 @@ async def on_message(message):
 		tmp = await client.send_message(message.channel, 'Deleting Task ...')
 		task = message.content[10:]
 		author = message.author
-		db.deletetask(task, author)
-		await client.edit_message(tmp, 'Deleted task {} from {}\'s tasks '.format(task, author))	
+		if db.deletetask(task, author):
+			await client.edit_message(tmp, 'Deleted task {} from {}\'s tasks '.format(task, author))
+		else:
+			await client.edit_message(tmp, 'Error: Can\'t delete task {}'.format(task))
+			
+	elif message.content.startswith('#:help') or message.content.startswith('#:?'):
+		await client.send_message(message.author, help_message)
 		
+	
 	elif message.content.startswith('!'):
 		db.disconnect()
 		raise SystemExit("Exited with !exit command")
