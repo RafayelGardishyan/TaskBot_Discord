@@ -47,3 +47,17 @@
 2018-01-07 12:57:41,934 INFO Initialized cursor
 2018-01-07 12:57:41,935 INFO Table tasks already exists
 2018-01-07 12:57:47,524 ERROR Failed to get tasks from database: no tables specified
+2018-01-07 13:00:06,830 INFO Disconnected from database
+2018-01-07 13:00:07,501 INFO Connected to database Taskbot.sqlite3
+2018-01-07 13:00:07,501 INFO Initialized cursor
+2018-01-07 13:00:07,501 INFO Table tasks already exists
+2018-01-07 13:00:19,260 ERROR Failed to get tasks from database: Incorrect number of bindings supplied. The current statement uses 1, and there are 12 supplied.
+2018-01-07 13:05:08,090 INFO Connected to database Taskbot.sqlite3
+2018-01-07 13:05:08,091 INFO Initialized cursor
+2018-01-07 13:05:08,092 INFO Table tasks already exists
+2018-01-07 13:06:37,735 ERROR Failed to get tasks from database: Incorrect number of bindings supplied. The current statement uses 1, and there are 12 supplied.
+2018-01-07 13:08:56,130 INFO Disconnected from database
+2018-01-07 13:09:00,192 INFO Connected to database Taskbot.sqlite3
+2018-01-07 13:09:00,192 INFO Initialized cursor
+2018-01-07 13:09:00,193 INFO Table tasks already exists
+2018-01-07 13:14:09,761 INFO Disconnected from database

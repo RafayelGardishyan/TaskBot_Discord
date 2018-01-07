@@ -28,7 +28,16 @@ async def on_message(message):
 
 	elif message.content.startswith('#:mytasks'):
 		tmp = await client.send_message(message.channel, 'Getting Tasks ...')
-		tasks = db.gettasks(message.author)
+		tasksraw = db.gettasks(message.author)
+		tcount = 0
+		tasks = []
+		for task in tasksraw:
+			count = tcount + 1
+			tcount += 1
+			name = task[1]
+			tasks += "{} : {}".format(count, name)
+			
+			
 		await client.edit_message(tmp, 'Your tasks\n {} '.format(tasks))
 		
 	elif message.content.startswith('!exit'):
