@@ -1,3 +1,5 @@
+# Codeniacs FLL Taskbot
+
 import discord
 import asyncio
 from db import dp as db
@@ -15,6 +17,7 @@ async def on_ready():
 	print(client.user.name)
 	print(client.user.id)
 	print('------')
+	await client.change_presence(game=discord.Game(name="Prefix: '#:'"))
 
 @client.event
 async def on_message(message):
