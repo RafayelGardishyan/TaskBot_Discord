@@ -4,3 +4,46 @@
 2018-01-07 12:34:17,561 ERROR Failed to add task to database: 'str' object has no attribute 'execute'
 2018-01-07 12:36:42,491 INFO Connected to database Taskbot.sqlite3
 2018-01-07 12:36:42,492 INFO Table tasks already exists
+2018-01-07 12:38:22,783 ERROR Failed to add task to database: 'db' object has no attribute 'attributes'
+2018-01-07 12:40:38,842 INFO Disconnected from database
+2018-01-07 12:40:42,363 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:40:42,363 INFO Table tasks already exists
+2018-01-07 12:40:55,477 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:40:55,478 INFO Table tasks already exists
+2018-01-07 12:41:33,929 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:41:33,930 INFO Table tasks already exists
+2018-01-07 12:42:22,476 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:42:22,476 INFO Table tasks already exists
+2018-01-07 12:45:03,437 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:45:03,441 INFO Table tasks already exists
+2018-01-07 12:46:21,260 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:46:21,261 INFO Table tasks already exists
+2018-01-07 12:46:32,353 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:46:32,354 INFO Table tasks already exists
+2018-01-07 12:46:51,017 ERROR Failed to add task to database: 'db' object has no attribute 'self'
+2018-01-07 12:50:21,066 INFO Disconnected from database
+2018-01-07 12:50:26,402 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:50:26,404 INFO Initialized cursor
+2018-01-07 12:50:26,423 INFO Created table tasks
+2018-01-07 12:50:34,592 ERROR Failed to add task to database: Error binding parameter 1 - probably unsupported type.
+2018-01-07 12:51:36,845 INFO Disconnected from database
+2018-01-07 12:51:40,962 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:51:40,963 INFO Initialized cursor
+2018-01-07 12:51:40,964 INFO Table tasks already exists
+2018-01-07 12:51:51,979 ERROR Failed to add task to database: name 'atr' is not defined
+2018-01-07 12:54:24,249 INFO Disconnected from database
+2018-01-07 12:54:26,803 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:54:26,803 INFO Initialized cursor
+2018-01-07 12:54:26,804 INFO Table tasks already exists
+2018-01-07 12:54:38,549 INFO Added task Test for author Rafayel#0501 to database
+2018-01-07 12:55:22,077 ERROR Failed to get tasks from database: 'db' object has no attribute 'self'
+2018-01-07 12:55:59,895 INFO Disconnected from database
+2018-01-07 12:56:04,371 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:56:04,371 INFO Initialized cursor
+2018-01-07 12:56:04,372 INFO Table tasks already exists
+2018-01-07 12:56:13,295 ERROR Failed to get tasks from database: no such column: task
+2018-01-07 12:57:20,548 INFO Disconnected from database
+2018-01-07 12:57:41,934 INFO Connected to database Taskbot.sqlite3
+2018-01-07 12:57:41,934 INFO Initialized cursor
+2018-01-07 12:57:41,935 INFO Table tasks already exists
+2018-01-07 12:57:47,524 ERROR Failed to get tasks from database: no tables specified

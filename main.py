@@ -6,7 +6,7 @@ client = discord.Client()
 
 db = db.db()
 db.connect('Taskbot.sqlite3')
-
+db.cursor()
 db.createtasktable()
 
 @client.event
@@ -20,7 +20,6 @@ async def on_ready():
 async def on_message(message):
 	if message.content.startswith('#:task'):
 		task = message.content[7:]
-		db.addtask(task, message.author)
 		tmp = await client.send_message(message.channel, 'Adding Task ...')
 		await client.edit_message(tmp, 'Added task {} for user {}.'.format(task, message.author))
 
@@ -33,4 +32,4 @@ async def on_message(message):
 		db.disconnect()
 		raise SystemExit("Exited with !exit command")
 
-client.run('token')
+client.run('Mzk5MjI4NjM4NTY3ODU4MTc3.DTOZ6Q.Svv0IT8cbq3Cw4nDyyWJfznCEJw')

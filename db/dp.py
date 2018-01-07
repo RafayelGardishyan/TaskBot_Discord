@@ -34,7 +34,7 @@ class db():
 	def addtask(self, task, author):
 		try:
 			query = "INSERT INTO tasks(task, author) VALUES(?,?)"
-			self.attributes['cursor'].execute(query, (task, author))
+			self.cursor.execute(query, (str(task), str(author)))
 			self.db.commit()
 			self.logger.info("Added task {} for author {} to database".format(task, author))
 		except Exception as e:
@@ -45,7 +45,7 @@ class db():
 	def deletetask(self, task, author):
 		try:
 			query = "DELETE FROM tasks WHERE task = ? AND author = ?"
-			self.attributes['cursor'].execute(query, (task, author))
+			self.cursor.execute(query, (str(task), str(author)))
 			self.db.commit()
 			self.logger.info("Deleted task {} for author {} from database".format(task, author))
 		except Exception as e:
@@ -55,8 +55,8 @@ class db():
 
 	def gettasks(self, author):
 		try:
-			query = "SELECT task WHERE author=?"
-			self.attributes['cursor'].execute(query, (author))
+			query = "SELECT * FROM tasks WHERE author=?"
+			self.cursor.execute(query, (str(author)))
 			return self.cursor.fetchall()
 			self.logger.info("Got tasks for author {} from database".format(author))
 		except Exception as e:
