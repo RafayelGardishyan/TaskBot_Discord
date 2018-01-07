@@ -72,7 +72,7 @@ class Cl:
 				db.disconnect()
 				raise SystemExit("Exited with !exit command")
 
-		client.run('Mzk5MjI4NjM4NTY3ODU4MTc3.DTOZ6Q.Svv0IT8cbq3Cw4nDyyWJfznCEJw')
+		client.run('token')
 	
 if __name__ == "__main__":
 	c = Cl()
